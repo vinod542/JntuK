@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Placement Officer.master" AutoEventWireup="false" CodeFile="plofc2.master.cs" Inherits="plofc2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table class="style1">
+    <tr>
+        <td colspan="2">
+            <asp:LinkButton ID="LinkButton6" runat="server" 
+                PostBackUrl="~/uploadplofcstudentdetails.aspx">viewplacementdetails</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton7" runat="server" 
+                PostBackUrl="~/viewstudentdetails2.aspx">viewstudentdetails</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton8" runat="server" 
+                PostBackUrl="~/viewfeedetails2.aspx">viewfeedetails</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton9" runat="server" 
+                PostBackUrl="~/viewpercentagedetail2.aspx">viewpercentagedetails</asp:LinkButton>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+</table>
+</asp:Content>
+

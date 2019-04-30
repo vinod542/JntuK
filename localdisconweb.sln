@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localdisconweb", "D:\localdisconweb\localdisconweb\", "{97520C9B-E378-4F28-BA1C-D57F5D96EF95}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localdisconweb"
+		Debug.AspNetCompiler.PhysicalPath = "D:\localdisconweb\localdisconweb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localdisconweb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localdisconweb"
+		Release.AspNetCompiler.PhysicalPath = "D:\localdisconweb\localdisconweb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localdisconweb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3683"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97520C9B-E378-4F28-BA1C-D57F5D96EF95}.Debug|.NET.ActiveCfg = Debug|.NET
+		{97520C9B-E378-4F28-BA1C-D57F5D96EF95}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
